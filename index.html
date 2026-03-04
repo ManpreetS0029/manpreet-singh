@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manpreet Singh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconscout Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo"><span><</span>Portfolio<span>/></span></a>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="home section" id="home">
+        <div class="home-container container">
+          <div class="home-content">
+            <span class="home-subtitle">Hello, I am</span>
+            <h1 class="home-title">Manpreet Singh</h1>
+            <h3 class="home-role">Backend Developer</h3>
+            <p class="home-description">
+              I specialize in building robust, scalable server-side applications
+              and APIs. Passionate about writing clean PHP code and architecting
+              reliable systems that drive business growth.
+            </p>
+            <div class="home-social">
+              <a
+                href="https://github.com"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
+            <div class="home-buttons">
+              <a href="#contact" class="btn">
+                Let's Talk <i class="uil uil-message btn-icon"></i>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/12LxAohP0w0PIts1yRZ1Cr69gCx40thWd/view?usp=sharing"
+                class="btn-ghost"
+                target="_blank"
+              >
+                Download CV <i class="uil uil-download-alt btn-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <span class="section-subtitle">My Introduction</span>
+
+        <div class="about-container container grid">
+          <div class="about-data">
+            <p class="about-description">
+              As a dedicated backend developer, I focus on performance,
+              security, and scalability. With a strong foundation in PHP and the
+              Laravel ecosystem, I excel at designing optimized database
+              schemas, developing RESTful APIs, and building complex admin
+              systems using FilamentPHP. Connecting seamless backend logic to
+              responsive front-end interfaces gives me the tools to build
+              full-scale solutions.
+            </p>
+
+            <div class="about-info">
+              <div>
+                <span class="about-info-title">03+</span>
+                <span class="about-info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+              <div>
+                <span class="about-info-title">15+</span>
+                <span class="about-info-name"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
+              <div>
+                <span class="about-info-title">03</span>
+                <span class="about-info-name"
+                  >Companies <br />
+                  worked</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <span class="section-subtitle">My Technical Level</span>
+
+        <div
+          class="skills-container container grid"
+          style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto"
+        >
+          <div class="skills-content">
+            <div
+              class="skills-header"
+              style="justify-content: center; margin-bottom: 3rem"
+            >
+              <i
+                class="uil uil-layer-group skills-icon"
+                style="font-size: 2.5rem"
+              ></i>
+              <div>
+                <h1 class="skills-title" style="font-size: 1.75rem">
+                  Tech Stack
+                </h1>
+                <span class="skills-subtitle"
+                  >Technologies I work with daily</span
+                >
+              </div>
+            </div>
+
+            <div
+              class="skills-grid"
+              style="
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                gap: 2rem;
+                justify-items: center;
+                text-align: center;
+              "
+            >
+              <!-- PHP -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                  alt="PHP"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">PHP</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >90%</span
+                >
+              </div>
+
+              <!-- Laravel -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                  alt="Laravel"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">Laravel</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >90%</span
+                >
+              </div>
+
+              <!-- MySQL -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                  alt="MySQL"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">MySQL</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >90%</span
+                >
+              </div>
+
+              <!-- Livewire -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg"
+                  alt="Livewire"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">Livewire</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >85%</span
+                >
+              </div>
+
+              <!-- FilamentPHP -->
+              <div class="skill-item">
+                <div
+                  style="
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto 0.5rem auto;
+                  "
+                >
+                  <span
+                    style="
+                      color: #f59e0b;
+                      font-weight: 800;
+                      font-size: 1.1rem;
+                      font-style: italic;
+                      letter-spacing: -0.5px;
+                    "
+                    >filament</span
+                  >
+                </div>
+                <h3 class="skills-name">FilamentPHP</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >85%</span
+                >
+              </div>
+
+              <!-- JavaScript -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">JavaScript</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >85%</span
+                >
+              </div>
+
+              <!-- HTML -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  alt="HTML"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">HTML</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >90%</span
+                >
+              </div>
+
+              <!-- CSS -->
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  alt="CSS"
+                  style="width: 60px; height: 60px; margin-bottom: 0.5rem"
+                />
+                <h3 class="skills-name">CSS</h3>
+                <span
+                  class="skills-percentage-text"
+                  style="
+                    font-family: var(--code-font);
+                    font-size: 0.9rem;
+                    color: var(--first-color);
+                  "
+                  >85%</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="experience section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <span class="section-subtitle">My Personal Journey</span>
+
+        <div class="experience-container container">
+          <div class="experience-content">
+            <!-- Experience 1 -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">PHP Developer</h3>
+                  <span class="experience-company"
+                    >Stellen Infotech | Mohali, Punjab, India</span
+                  >
+                </div>
+                <div class="experience-calendar">
+                  <i class="uil uil-calendar-alt"></i> Dec 2024 - Present
+                </div>
+              </div>
+              <ul class="experience-description">
+                <li>
+                  Developed web applications using Laravel, Livewire,
+                  FilamentPHP, and MySQL
+                </li>
+                <li>
+                  Built admin panels with FilamentPHP and Livewire-based
+                  workflows
+                </li>
+                <li>
+                  Developed REST APIs and integrations (Twilio, Google 2FA,
+                  Msg91, Interakt, JustGoSMS)
+                </li>
+                <li>Integrated Stripe, Juspay and PayPal payments</li>
+                <li>
+                  Implemented JavaScript-based validation and real-time UI logic
+                </li>
+              </ul>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">Full Stack Developer</h3>
+                  <span class="experience-company"
+                    >Qwikgig | Mohali, Punjab, India</span
+                  >
+                </div>
+                <div class="experience-calendar">
+                  <i class="uil uil-calendar-alt"></i> July 2024 - Sept 2024
+                </div>
+              </div>
+              <ul class="experience-description">
+                <li>
+                  Developed Laravel-based applications focused on UI/UX and
+                  usability
+                </li>
+                <li>
+                  Built client-side features using JavaScript with API-driven UI
+                  interactions
+                </li>
+              </ul>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experience-card">
+              <div class="experience-header">
+                <div>
+                  <h3 class="experience-title">Backend Developer</h3>
+                  <span class="experience-company"
+                    >Dotlinker | Remote (India)</span
+                  >
+                </div>
+                <div class="experience-calendar">
+                  <i class="uil uil-calendar-alt"></i> Nov 2022 - April 2024
+                </div>
+              </div>
+              <ul class="experience-description">
+                <li>
+                  Developed backend modules and REST APIs using Laravel and
+                  CodeIgniter
+                </li>
+                <li>
+                  Improved application reliability and performance through
+                  caching and query optimization
+                </li>
+                <li>
+                  Resolved production issues and supported live environments
+                  within Agile teams
+                </li>
+                <li>
+                  Contributed to frontend features using JavaScript, HTML, and
+                  CSS when required
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Portfolio</h2>
+        <span class="section-subtitle">Most Recent Work</span>
+
+        <div class="projects-container container grid">
+          <!-- Project 1: Qwaiting -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Qwaiting</h3>
+              <p class="project-description">
+                A smart queue management system meant to handle queues
+                efficiently by reducing wait times and making processes much
+                smoother.
+              </p>
+              <ul class="project-tech">
+                <li>Laravel</li>
+                <li>Livewire</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <a
+                href="https://qwaiting.com/"
+                class="project-button"
+                target="_blank"
+              >
+                Live Link
+                <i class="uil uil-external-link-alt project-button-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Konferensbokarna -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Konferensbokarna</h3>
+              <p class="project-description">
+                A conference booking system that handles event requirements and
+                reservations. Spearheaded backend architecture, database design,
+                and robust API development.
+              </p>
+              <ul class="project-tech">
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+                <li>REST APIs</li>
+                <li>Vue JS</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <a
+                href="https://konferensbokarna.se/"
+                class="project-button"
+                target="_blank"
+              >
+                Live Link
+                <i class="uil uil-external-link-alt project-button-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3: Mount Faber Leisure -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Mount Faber Leisure</h3>
+              <p class="project-description">
+                A dedicated booking system built to seamlessly handle cable car
+                ride reservations with integrated inventory limits and date
+                constraints.
+              </p>
+              <ul class="project-tech">
+                <li>Core PHP</li>
+                <li>MySQL</li>
+                <li>AngularJS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <a
+                href="https://mountfaberleisure.com/"
+                class="project-button"
+                target="_blank"
+              >
+                Live Link
+                <i class="uil uil-external-link-alt project-button-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4: Fr8nity -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Fr8nity</h3>
+              <p class="project-description">
+                A bespoke logistics CRM tailored to manage events, conferences,
+                and memberships linked directly to logistics companies and
+                global supply chains.
+              </p>
+              <ul class="project-tech">
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <a
+                href="https://fr8nity.com/"
+                class="project-button"
+                target="_blank"
+              >
+                Live Link
+                <i class="uil uil-external-link-alt project-button-icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5: DesignTeam -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">DesignTeam</h3>
+              <p class="project-description">
+                An interior design platform allowing users to seamlessly book
+                consultations and generate interior cost estimations depending
+                on specific requirements.
+              </p>
+              <ul class="project-tech">
+                <li>Core PHP</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>HTML/CSS</li>
+              </ul>
+              <a
+                href="https://designteam.co.uk/"
+                class="project-button"
+                target="_blank"
+              >
+                Live Link
+                <i class="uil uil-external-link-alt project-button-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <span class="section-subtitle">Get in touch</span>
+
+        <div class="contact-container container">
+          <a
+            href="mailto:manpreetmatharoo2@gmail.com"
+            class="contact-information"
+          >
+            <i class="uil uil-envelope contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Email</h3>
+              <span class="contact-subtitle">manpreetmatharoo2@gmail.com</span>
+            </div>
+          </a>
+          <div class="contact-information">
+            <i class="uil uil-map-marker contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Location</h3>
+              <span class="contact-subtitle"
+                >Mandi Gobindgarh, Punjab, India</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title">Manpreet Singh</h1>
+            <span class="footer-subtitle">Backend Developer</span>
+          </div>
+
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+
+          <div class="footer-socials">
+            <a href="#" class="footer-social"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+            <a href="#" class="footer-social"
+              ><i class="uil uil-linkedin-alt"></i
+            ></a>
+            <a href="#" class="footer-social"
+              ><i class="uil uil-twitter-alt"></i
+            ></a>
+          </div>
+        </div>
+        <p class="footer-copy">&#169; Manpreet Singh. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
